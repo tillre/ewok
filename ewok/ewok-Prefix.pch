@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ewok' target in the 'ewok' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif

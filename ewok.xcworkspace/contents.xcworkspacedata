@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:letters/letters.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ewok/ewok.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:lua/lua.xcodeproj">
+   </FileRef>
+</Workspace>

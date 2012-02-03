@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1C0DE514DBEE7D00E2F8A1 /* Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DA414DBEE7D00E2F8A1 /* Animation.h */; };
+		BB1C0DE614DBEE7D00E2F8A1 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DA514DBEE7D00E2F8A1 /* Application.cpp */; };
+		BB1C0DE714DBEE7D00E2F8A1 /* Application.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DA614DBEE7D00E2F8A1 /* Application.h */; };
+		BB1C0DE814DBEE7D00E2F8A1 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DA714DBEE7D00E2F8A1 /* Color.cpp */; };
+		BB1C0DE914DBEE7D00E2F8A1 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DA814DBEE7D00E2F8A1 /* Color.h */; };
+		BB1C0DEA14DBEE7D00E2F8A1 /* Event.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DA914DBEE7D00E2F8A1 /* Event.h */; };
+		BB1C0DEC14DBEE7D00E2F8A1 /* FileData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DAB14DBEE7D00E2F8A1 /* FileData.cpp */; };
+		BB1C0DED14DBEE7D00E2F8A1 /* FileData.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DAC14DBEE7D00E2F8A1 /* FileData.h */; };
+		BB1C0DEE14DBEE7D00E2F8A1 /* FrameAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DAD14DBEE7D00E2F8A1 /* FrameAnimation.cpp */; };
+		BB1C0DEF14DBEE7D00E2F8A1 /* FrameAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DAE14DBEE7D00E2F8A1 /* FrameAnimation.h */; };
+		BB1C0DF014DBEE7D00E2F8A1 /* Geom.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DAF14DBEE7D00E2F8A1 /* Geom.h */; };
+		BB1C0DF114DBEE7D00E2F8A1 /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DB014DBEE7D00E2F8A1 /* Image.cpp */; };
+		BB1C0DF214DBEE7D00E2F8A1 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DB114DBEE7D00E2F8A1 /* Image.h */; };
+		BB1C0DF314DBEE7D00E2F8A1 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DB214DBEE7D00E2F8A1 /* Log.h */; };
+		BB1C0DF414DBEE7D00E2F8A1 /* LuaScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DB314DBEE7D00E2F8A1 /* LuaScript.cpp */; };
+		BB1C0DF514DBEE7D00E2F8A1 /* LuaScript.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DB414DBEE7D00E2F8A1 /* LuaScript.h */; };
+		BB1C0DF614DBEE7D00E2F8A1 /* MathUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DB514DBEE7D00E2F8A1 /* MathUtil.cpp */; };
+		BB1C0DF714DBEE7D00E2F8A1 /* MathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DB614DBEE7D00E2F8A1 /* MathUtil.h */; };
+		BB1C0DF814DBEE7D00E2F8A1 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DB714DBEE7D00E2F8A1 /* Matrix.cpp */; };
+		BB1C0DF914DBEE7D00E2F8A1 /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DB814DBEE7D00E2F8A1 /* Matrix.h */; };
+		BB1C0DFA14DBEE7D00E2F8A1 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DB914DBEE7D00E2F8A1 /* Node.cpp */; };
+		BB1C0DFB14DBEE7D00E2F8A1 /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DBA14DBEE7D00E2F8A1 /* Node.h */; };
+		BB1C0DFC14DBEE7D00E2F8A1 /* OpenGLUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DBB14DBEE7D00E2F8A1 /* OpenGLUtil.cpp */; };
+		BB1C0DFD14DBEE7D00E2F8A1 /* OpenGLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DBC14DBEE7D00E2F8A1 /* OpenGLUtil.h */; };
+		BB1C0DFE14DBEE7D00E2F8A1 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DBD14DBEE7D00E2F8A1 /* Particle.cpp */; };
+		BB1C0DFF14DBEE7D00E2F8A1 /* Particle.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DBE14DBEE7D00E2F8A1 /* Particle.h */; };
+		BB1C0E0014DBEE7D00E2F8A1 /* Physics.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DBF14DBEE7D00E2F8A1 /* Physics.h */; };
+		BB1C0E0114DBEE7D00E2F8A1 /* Pool.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DC014DBEE7D00E2F8A1 /* Pool.h */; };
+		BB1C0E0214DBEE7D00E2F8A1 /* Random.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DC114DBEE7D00E2F8A1 /* Random.h */; };
+		BB1C0E0314DBEE7D00E2F8A1 /* Renderable.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DC214DBEE7D00E2F8A1 /* Renderable.h */; };
+		BB1C0E0414DBEE7D00E2F8A1 /* RenderAttribs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DC314DBEE7D00E2F8A1 /* RenderAttribs.cpp */; };
+		BB1C0E0514DBEE7D00E2F8A1 /* RenderAttribs.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DC414DBEE7D00E2F8A1 /* RenderAttribs.h */; };
+		BB1C0E0614DBEE7D00E2F8A1 /* RenderBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DC514DBEE7D00E2F8A1 /* RenderBuffer.cpp */; };
+		BB1C0E0714DBEE7D00E2F8A1 /* RenderBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DC614DBEE7D00E2F8A1 /* RenderBuffer.h */; };
+		BB1C0E0814DBEE7D00E2F8A1 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DC714DBEE7D00E2F8A1 /* Renderer.cpp */; };
+		BB1C0E0914DBEE7D00E2F8A1 /* Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DC814DBEE7D00E2F8A1 /* Renderer.h */; };
+		BB1C0E0A14DBEE7D00E2F8A1 /* RenderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DC914DBEE7D00E2F8A1 /* RenderProgram.cpp */; };
+		BB1C0E0B14DBEE7D00E2F8A1 /* RenderProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DCA14DBEE7D00E2F8A1 /* RenderProgram.h */; };
+		BB1C0E0C14DBEE7D00E2F8A1 /* RenderUniforms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DCB14DBEE7D00E2F8A1 /* RenderUniforms.cpp */; };
+		BB1C0E0D14DBEE7D00E2F8A1 /* RenderUniforms.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DCC14DBEE7D00E2F8A1 /* RenderUniforms.h */; };
+		BB1C0E0E14DBEE7D00E2F8A1 /* Resource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DCD14DBEE7D00E2F8A1 /* Resource.cpp */; };
+		BB1C0E0F14DBEE7D00E2F8A1 /* Resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DCE14DBEE7D00E2F8A1 /* Resource.h */; };
+		BB1C0E1014DBEE7D00E2F8A1 /* RotMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DCF14DBEE7D00E2F8A1 /* RotMatrix.cpp */; };
+		BB1C0E1114DBEE7D00E2F8A1 /* RotMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DD014DBEE7D00E2F8A1 /* RotMatrix.h */; };
+		BB1C0E1214DBEE7D00E2F8A1 /* Scene.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DD114DBEE7D00E2F8A1 /* Scene.h */; };
+		BB1C0E1314DBEE7D00E2F8A1 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DD214DBEE7D00E2F8A1 /* Shader.cpp */; };
+		BB1C0E1414DBEE7D00E2F8A1 /* Shader.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DD314DBEE7D00E2F8A1 /* Shader.h */; };
+		BB1C0E1514DBEE7D00E2F8A1 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DD414DBEE7D00E2F8A1 /* Sprite.cpp */; };
+		BB1C0E1614DBEE7D00E2F8A1 /* Sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DD514DBEE7D00E2F8A1 /* Sprite.h */; };
+		BB1C0E1714DBEE7D00E2F8A1 /* SpriteRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DD614DBEE7D00E2F8A1 /* SpriteRenderer.h */; };
+		BB1C0E1814DBEE7D00E2F8A1 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DD714DBEE7D00E2F8A1 /* Texture.cpp */; };
+		BB1C0E1914DBEE7D00E2F8A1 /* Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DD814DBEE7D00E2F8A1 /* Texture.h */; };
+		BB1C0E1A14DBEE7D00E2F8A1 /* TextureAtlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DD914DBEE7D00E2F8A1 /* TextureAtlas.cpp */; };
+		BB1C0E1B14DBEE7D00E2F8A1 /* TextureAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DDA14DBEE7D00E2F8A1 /* TextureAtlas.h */; };
+		BB1C0E1C14DBEE7D00E2F8A1 /* Touch.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DDB14DBEE7D00E2F8A1 /* Touch.h */; };
+		BB1C0E1D14DBEE7D00E2F8A1 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1C0DDC14DBEE7D00E2F8A1 /* Vector.cpp */; };
+		BB1C0E1E14DBEE7D00E2F8A1 /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DDD14DBEE7D00E2F8A1 /* Vector.h */; };
+		BB1C0E1F14DBEE7D00E2F8A1 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0DDE14DBEE7D00E2F8A1 /* Vertex.h */; };
+		BB1C0E2614DBEE9C00E2F8A1 /* ewok-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = BB1C0E2514DBEE9C00E2F8A1 /* ewok-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB1C0D9314DBEDF900E2F8A1 /* libewok.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libewok.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1C0DA414DBEE7D00E2F8A1 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		BB1C0DA514DBEE7D00E2F8A1 /* Application.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		BB1C0DA614DBEE7D00E2F8A1 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		BB1C0DA714DBEE7D00E2F8A1 /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		BB1C0DA814DBEE7D00E2F8A1 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		BB1C0DA914DBEE7D00E2F8A1 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		BB1C0DAB14DBEE7D00E2F8A1 /* FileData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileData.cpp; sourceTree = "<group>"; };
+		BB1C0DAC14DBEE7D00E2F8A1 /* FileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileData.h; sourceTree = "<group>"; };
+		BB1C0DAD14DBEE7D00E2F8A1 /* FrameAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrameAnimation.cpp; sourceTree = "<group>"; };
+		BB1C0DAE14DBEE7D00E2F8A1 /* FrameAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAnimation.h; sourceTree = "<group>"; };
+		BB1C0DAF14DBEE7D00E2F8A1 /* Geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geom.h; sourceTree = "<group>"; };
+		BB1C0DB014DBEE7D00E2F8A1 /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
+		BB1C0DB114DBEE7D00E2F8A1 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		BB1C0DB214DBEE7D00E2F8A1 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		BB1C0DB314DBEE7D00E2F8A1 /* LuaScript.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LuaScript.cpp; sourceTree = "<group>"; };
+		BB1C0DB414DBEE7D00E2F8A1 /* LuaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaScript.h; sourceTree = "<group>"; };
+		BB1C0DB514DBEE7D00E2F8A1 /* MathUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathUtil.cpp; sourceTree = "<group>"; };
+		BB1C0DB614DBEE7D00E2F8A1 /* MathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtil.h; sourceTree = "<group>"; };
+		BB1C0DB714DBEE7D00E2F8A1 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		BB1C0DB814DBEE7D00E2F8A1 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		BB1C0DB914DBEE7D00E2F8A1 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		BB1C0DBA14DBEE7D00E2F8A1 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		BB1C0DBB14DBEE7D00E2F8A1 /* OpenGLUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLUtil.cpp; sourceTree = "<group>"; };
+		BB1C0DBC14DBEE7D00E2F8A1 /* OpenGLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLUtil.h; sourceTree = "<group>"; };
+		BB1C0DBD14DBEE7D00E2F8A1 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
+		BB1C0DBE14DBEE7D00E2F8A1 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		BB1C0DBF14DBEE7D00E2F8A1 /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		BB1C0DC014DBEE7D00E2F8A1 /* Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pool.h; sourceTree = "<group>"; };
+		BB1C0DC114DBEE7D00E2F8A1 /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		BB1C0DC214DBEE7D00E2F8A1 /* Renderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderable.h; sourceTree = "<group>"; };
+		BB1C0DC314DBEE7D00E2F8A1 /* RenderAttribs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderAttribs.cpp; sourceTree = "<group>"; };
+		BB1C0DC414DBEE7D00E2F8A1 /* RenderAttribs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderAttribs.h; sourceTree = "<group>"; };
+		BB1C0DC514DBEE7D00E2F8A1 /* RenderBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderBuffer.cpp; sourceTree = "<group>"; };
+		BB1C0DC614DBEE7D00E2F8A1 /* RenderBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderBuffer.h; sourceTree = "<group>"; };
+		BB1C0DC714DBEE7D00E2F8A1 /* Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		BB1C0DC814DBEE7D00E2F8A1 /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		BB1C0DC914DBEE7D00E2F8A1 /* RenderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderProgram.cpp; sourceTree = "<group>"; };
+		BB1C0DCA14DBEE7D00E2F8A1 /* RenderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderProgram.h; sourceTree = "<group>"; };
+		BB1C0DCB14DBEE7D00E2F8A1 /* RenderUniforms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderUniforms.cpp; sourceTree = "<group>"; };
+		BB1C0DCC14DBEE7D00E2F8A1 /* RenderUniforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderUniforms.h; sourceTree = "<group>"; };
+		BB1C0DCD14DBEE7D00E2F8A1 /* Resource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Resource.cpp; sourceTree = "<group>"; };
+		BB1C0DCE14DBEE7D00E2F8A1 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		BB1C0DCF14DBEE7D00E2F8A1 /* RotMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotMatrix.cpp; sourceTree = "<group>"; };
+		BB1C0DD014DBEE7D00E2F8A1 /* RotMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotMatrix.h; sourceTree = "<group>"; };
+		BB1C0DD114DBEE7D00E2F8A1 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		BB1C0DD214DBEE7D00E2F8A1 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		BB1C0DD314DBEE7D00E2F8A1 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		BB1C0DD414DBEE7D00E2F8A1 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
+		BB1C0DD514DBEE7D00E2F8A1 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		BB1C0DD614DBEE7D00E2F8A1 /* SpriteRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteRenderer.h; sourceTree = "<group>"; };
+		BB1C0DD714DBEE7D00E2F8A1 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		BB1C0DD814DBEE7D00E2F8A1 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		BB1C0DD914DBEE7D00E2F8A1 /* TextureAtlas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureAtlas.cpp; sourceTree = "<group>"; };
+		BB1C0DDA14DBEE7D00E2F8A1 /* TextureAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureAtlas.h; sourceTree = "<group>"; };
+		BB1C0DDB14DBEE7D00E2F8A1 /* Touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Touch.h; sourceTree = "<group>"; };
+		BB1C0DDC14DBEE7D00E2F8A1 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		BB1C0DDD14DBEE7D00E2F8A1 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		BB1C0DDE14DBEE7D00E2F8A1 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		BB1C0E2514DBEE9C00E2F8A1 /* ewok-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ewok-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1C0D9014DBEDF900E2F8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1C0D8814DBEDF900E2F8A1 = {
+			isa = PBXGroup;
+			children = (
+				BB1C0D9814DBEDF900E2F8A1 /* ewok */,
+				BB1C0D9414DBEDF900E2F8A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1C0D9414DBEDF900E2F8A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C0D9314DBEDF900E2F8A1 /* libewok.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1C0D9814DBEDF900E2F8A1 /* ewok */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C0E2514DBEE9C00E2F8A1 /* ewok-Prefix.pch */,
+				BB1C0DA314DBEE7D00E2F8A1 /* ewok */,
+			);
+			path = ewok;
+			sourceTree = "<group>";
+		};
+		BB1C0DA314DBEE7D00E2F8A1 /* ewok */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C0DA414DBEE7D00E2F8A1 /* Animation.h */,
+				BB1C0DA514DBEE7D00E2F8A1 /* Application.cpp */,
+				BB1C0DA614DBEE7D00E2F8A1 /* Application.h */,
+				BB1C0DA714DBEE7D00E2F8A1 /* Color.cpp */,
+				BB1C0DA814DBEE7D00E2F8A1 /* Color.h */,
+				BB1C0DA914DBEE7D00E2F8A1 /* Event.h */,
+				BB1C0DAB14DBEE7D00E2F8A1 /* FileData.cpp */,
+				BB1C0DAC14DBEE7D00E2F8A1 /* FileData.h */,
+				BB1C0DAD14DBEE7D00E2F8A1 /* FrameAnimation.cpp */,
+				BB1C0DAE14DBEE7D00E2F8A1 /* FrameAnimation.h */,
+				BB1C0DAF14DBEE7D00E2F8A1 /* Geom.h */,
+				BB1C0DB014DBEE7D00E2F8A1 /* Image.cpp */,
+				BB1C0DB114DBEE7D00E2F8A1 /* Image.h */,
+				BB1C0DB214DBEE7D00E2F8A1 /* Log.h */,
+				BB1C0DB314DBEE7D00E2F8A1 /* LuaScript.cpp */,
+				BB1C0DB414DBEE7D00E2F8A1 /* LuaScript.h */,
+				BB1C0DB514DBEE7D00E2F8A1 /* MathUtil.cpp */,
+				BB1C0DB614DBEE7D00E2F8A1 /* MathUtil.h */,
+				BB1C0DB714DBEE7D00E2F8A1 /* Matrix.cpp */,
+				BB1C0DB814DBEE7D00E2F8A1 /* Matrix.h */,
+				BB1C0DB914DBEE7D00E2F8A1 /* Node.cpp */,
+				BB1C0DBA14DBEE7D00E2F8A1 /* Node.h */,
+				BB1C0DBB14DBEE7D00E2F8A1 /* OpenGLUtil.cpp */,
+				BB1C0DBC14DBEE7D00E2F8A1 /* OpenGLUtil.h */,
+				BB1C0DBD14DBEE7D00E2F8A1 /* Particle.cpp */,
+				BB1C0DBE14DBEE7D00E2F8A1 /* Particle.h */,
+				BB1C0DBF14DBEE7D00E2F8A1 /* Physics.h */,
+				BB1C0DC014DBEE7D00E2F8A1 /* Pool.h */,
+				BB1C0DC114DBEE7D00E2F8A1 /* Random.h */,
+				BB1C0DC214DBEE7D00E2F8A1 /* Renderable.h */,
+				BB1C0DC314DBEE7D00E2F8A1 /* RenderAttribs.cpp */,
+				BB1C0DC414DBEE7D00E2F8A1 /* RenderAttribs.h */,
+				BB1C0DC514DBEE7D00E2F8A1 /* RenderBuffer.cpp */,
+				BB1C0DC614DBEE7D00E2F8A1 /* RenderBuffer.h */,
+				BB1C0DC714DBEE7D00E2F8A1 /* Renderer.cpp */,
+				BB1C0DC814DBEE7D00E2F8A1 /* Renderer.h */,
+				BB1C0DC914DBEE7D00E2F8A1 /* RenderProgram.cpp */,
+				BB1C0DCA14DBEE7D00E2F8A1 /* RenderProgram.h */,
+				BB1C0DCB14DBEE7D00E2F8A1 /* RenderUniforms.cpp */,
+				BB1C0DCC14DBEE7D00E2F8A1 /* RenderUniforms.h */,
+				BB1C0DCD14DBEE7D00E2F8A1 /* Resource.cpp */,
+				BB1C0DCE14DBEE7D00E2F8A1 /* Resource.h */,
+				BB1C0DCF14DBEE7D00E2F8A1 /* RotMatrix.cpp */,
+				BB1C0DD014DBEE7D00E2F8A1 /* RotMatrix.h */,
+				BB1C0DD114DBEE7D00E2F8A1 /* Scene.h */,
+				BB1C0DD214DBEE7D00E2F8A1 /* Shader.cpp */,
+				BB1C0DD314DBEE7D00E2F8A1 /* Shader.h */,
+				BB1C0DD414DBEE7D00E2F8A1 /* Sprite.cpp */,
+				BB1C0DD514DBEE7D00E2F8A1 /* Sprite.h */,
+				BB1C0DD614DBEE7D00E2F8A1 /* SpriteRenderer.h */,
+				BB1C0DD714DBEE7D00E2F8A1 /* Texture.cpp */,
+				BB1C0DD814DBEE7D00E2F8A1 /* Texture.h */,
+				BB1C0DD914DBEE7D00E2F8A1 /* TextureAtlas.cpp */,
+				BB1C0DDA14DBEE7D00E2F8A1 /* TextureAtlas.h */,
+				BB1C0DDB14DBEE7D00E2F8A1 /* Touch.h */,
+				BB1C0DDC14DBEE7D00E2F8A1 /* Vector.cpp */,
+				BB1C0DDD14DBEE7D00E2F8A1 /* Vector.h */,
+				BB1C0DDE14DBEE7D00E2F8A1 /* Vertex.h */,
+			);
+			name = ewok;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB1C0D9114DBEDF900E2F8A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1C0DE514DBEE7D00E2F8A1 /* Animation.h in Headers */,
+				BB1C0DE714DBEE7D00E2F8A1 /* Application.h in Headers */,
+				BB1C0DE914DBEE7D00E2F8A1 /* Color.h in Headers */,
+				BB1C0DEA14DBEE7D00E2F8A1 /* Event.h in Headers */,
+				BB1C0DED14DBEE7D00E2F8A1 /* FileData.h in Headers */,
+				BB1C0DEF14DBEE7D00E2F8A1 /* FrameAnimation.h in Headers */,
+				BB1C0DF014DBEE7D00E2F8A1 /* Geom.h in Headers */,
+				BB1C0DF214DBEE7D00E2F8A1 /* Image.h in Headers */,
+				BB1C0DF314DBEE7D00E2F8A1 /* Log.h in Headers */,
+				BB1C0DF514DBEE7D00E2F8A1 /* LuaScript.h in Headers */,
+				BB1C0DF714DBEE7D00E2F8A1 /* MathUtil.h in Headers */,
+				BB1C0DF914DBEE7D00E2F8A1 /* Matrix.h in Headers */,
+				BB1C0DFB14DBEE7D00E2F8A1 /* Node.h in Headers */,
+				BB1C0DFD14DBEE7D00E2F8A1 /* OpenGLUtil.h in Headers */,
+				BB1C0DFF14DBEE7D00E2F8A1 /* Particle.h in Headers */,
+				BB1C0E0014DBEE7D00E2F8A1 /* Physics.h in Headers */,
+				BB1C0E0114DBEE7D00E2F8A1 /* Pool.h in Headers */,
+				BB1C0E0214DBEE7D00E2F8A1 /* Random.h in Headers */,
+				BB1C0E0314DBEE7D00E2F8A1 /* Renderable.h in Headers */,
+				BB1C0E0514DBEE7D00E2F8A1 /* RenderAttribs.h in Headers */,
+				BB1C0E0714DBEE7D00E2F8A1 /* RenderBuffer.h in Headers */,
+				BB1C0E0914DBEE7D00E2F8A1 /* Renderer.h in Headers */,
+				BB1C0E0B14DBEE7D00E2F8A1 /* RenderProgram.h in Headers */,
+				BB1C0E0D14DBEE7D00E2F8A1 /* RenderUniforms.h in Headers */,
+				BB1C0E0F14DBEE7D00E2F8A1 /* Resource.h in Headers */,
+				BB1C0E1114DBEE7D00E2F8A1 /* RotMatrix.h in Headers */,
+				BB1C0E1214DBEE7D00E2F8A1 /* Scene.h in Headers */,
+				BB1C0E1414DBEE7D00E2F8A1 /* Shader.h in Headers */,
+				BB1C0E1614DBEE7D00E2F8A1 /* Sprite.h in Headers */,
+				BB1C0E1714DBEE7D00E2F8A1 /* SpriteRenderer.h in Headers */,
+				BB1C0E1914DBEE7D00E2F8A1 /* Texture.h in Headers */,
+				BB1C0E1B14DBEE7D00E2F8A1 /* TextureAtlas.h in Headers */,
+				BB1C0E1C14DBEE7D00E2F8A1 /* Touch.h in Headers */,
+				BB1C0E1E14DBEE7D00E2F8A1 /* Vector.h in Headers */,
+				BB1C0E1F14DBEE7D00E2F8A1 /* Vertex.h in Headers */,
+				BB1C0E2614DBEE9C00E2F8A1 /* ewok-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB1C0D9214DBEDF900E2F8A1 /* ewok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1C0DA014DBEDF900E2F8A1 /* Build configuration list for PBXNativeTarget "ewok" */;
+			buildPhases = (
+				BB1C0D8F14DBEDF900E2F8A1 /* Sources */,
+				BB1C0D9014DBEDF900E2F8A1 /* Frameworks */,
+				BB1C0D9114DBEDF900E2F8A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ewok;
+			productName = ewok;
+			productReference = BB1C0D9314DBEDF900E2F8A1 /* libewok.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1C0D8A14DBEDF900E2F8A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BB1C0D8D14DBEDF900E2F8A1 /* Build configuration list for PBXProject "ewok" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB1C0D8814DBEDF900E2F8A1;
+			productRefGroup = BB1C0D9414DBEDF900E2F8A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1C0D9214DBEDF900E2F8A1 /* ewok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1C0D8F14DBEDF900E2F8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1C0DE614DBEE7D00E2F8A1 /* Application.cpp in Sources */,
+				BB1C0DE814DBEE7D00E2F8A1 /* Color.cpp in Sources */,
+				BB1C0DEC14DBEE7D00E2F8A1 /* FileData.cpp in Sources */,
+				BB1C0DEE14DBEE7D00E2F8A1 /* FrameAnimation.cpp in Sources */,
+				BB1C0DF114DBEE7D00E2F8A1 /* Image.cpp in Sources */,
+				BB1C0DF414DBEE7D00E2F8A1 /* LuaScript.cpp in Sources */,
+				BB1C0DF614DBEE7D00E2F8A1 /* MathUtil.cpp in Sources */,
+				BB1C0DF814DBEE7D00E2F8A1 /* Matrix.cpp in Sources */,
+				BB1C0DFA14DBEE7D00E2F8A1 /* Node.cpp in Sources */,
+				BB1C0DFC14DBEE7D00E2F8A1 /* OpenGLUtil.cpp in Sources */,
+				BB1C0DFE14DBEE7D00E2F8A1 /* Particle.cpp in Sources */,
+				BB1C0E0414DBEE7D00E2F8A1 /* RenderAttribs.cpp in Sources */,
+				BB1C0E0614DBEE7D00E2F8A1 /* RenderBuffer.cpp in Sources */,
+				BB1C0E0814DBEE7D00E2F8A1 /* Renderer.cpp in Sources */,
+				BB1C0E0A14DBEE7D00E2F8A1 /* RenderProgram.cpp in Sources */,
+				BB1C0E0C14DBEE7D00E2F8A1 /* RenderUniforms.cpp in Sources */,
+				BB1C0E0E14DBEE7D00E2F8A1 /* Resource.cpp in Sources */,
+				BB1C0E1014DBEE7D00E2F8A1 /* RotMatrix.cpp in Sources */,
+				BB1C0E1314DBEE7D00E2F8A1 /* Shader.cpp in Sources */,
+				BB1C0E1514DBEE7D00E2F8A1 /* Sprite.cpp in Sources */,
+				BB1C0E1814DBEE7D00E2F8A1 /* Texture.cpp in Sources */,
+				BB1C0E1A14DBEE7D00E2F8A1 /* TextureAtlas.cpp in Sources */,
+				BB1C0E1D14DBEE7D00E2F8A1 /* Vector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB1C0D9E14DBEDF900E2F8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../lua/lua;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB1C0D9F14DBEDF900E2F8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../lua/lua;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1C0DA114DBEDF900E2F8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ewok.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ewok-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../lua/lua;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BB1C0DA214DBEDF900E2F8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ewok.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ewok-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../lua/lua;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1C0D8D14DBEDF900E2F8A1 /* Build configuration list for PBXProject "ewok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1C0D9E14DBEDF900E2F8A1 /* Debug */,
+				BB1C0D9F14DBEDF900E2F8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1C0DA014DBEDF900E2F8A1 /* Build configuration list for PBXNativeTarget "ewok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1C0DA114DBEDF900E2F8A1 /* Debug */,
+				BB1C0DA214DBEDF900E2F8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB1C0D8A14DBEDF900E2F8A1 /* Project object */;
+}
